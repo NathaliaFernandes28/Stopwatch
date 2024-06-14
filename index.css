@@ -1,0 +1,54 @@
+/*Vamos começar a estilização do projeto com css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: tomato;
+}
+
+.paragrafo {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: black;
+  margin: 2em 0 0 0;
+  font-size: 4em;
+}
+main {
+  text-align: center;
+  margin-top: 3em;
+  color: black;
+  #seconds {
+    margin-bottom: 0.5em;
+    font-size: 3.5em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  #start {
+    padding: 0.7em;
+    font-size: 1.3em;
+    margin-top: 2em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    border: none;
+    background-color: black;
+    color: tomato;
+    border-radius: 1.2em;
+    cursor: pointer;
+  }
+  #message {
+    margin-top: 2em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2em;
+  }
+}
