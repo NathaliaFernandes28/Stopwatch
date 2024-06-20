@@ -10,6 +10,7 @@ Cronômetro regressivo de 1 minuto com botão de iniciar com a finalidade de con
   
 
 Visão Geral 
+
 Cronômetro feito com a linguagem de programação JavaScript junto com Html e Css. Tem como objetivo a aplicação do conhecimento adquirido 
 sobre as funções globais setTimeout() e setInterval() do javascript. Foi usado o setInterval() para a contagem regressiva do cronômetro e o setTimeout()
 para quando a contagem for encerrada, aparecer a mensagem de "Tempo esgotado!"
